@@ -1,0 +1,261 @@
+*{margin: 0; padding: 0;list-style: none; box-sizing: border-box; list-style: none; text-decoration: none;}
+
+.capa {
+    background-image: url(../img/santos_praia4.jpg);
+    /* cobrir a tela toda  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* nao rolar com a pagina, deixar travada */
+    background-attachment: fixed;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+header { 
+    width: 100%;
+    position: fixed;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.886);
+}
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 70px 0px 60px ;
+}
+/* ----------------------------------------------------------------------- */
+/* botoes menu home/curiosidade/video  */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-style: oblique;
+
+}
+.santos{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.home {
+    font-size: 13pt;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.curiosidade {
+    font-size: 13pt;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.video {
+    font-size: 13pt;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+/* ----------------------------------------------------------------------- */
+
+/* logo de santos  */
+.logo img {
+    width: 65px;
+}
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 27pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* corpo do site  */
+.barra {
+    background-color: rgba(255, 255, 255, 0.93);
+    width: 100%;
+    height: 5px;
+}
+.pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto_cidade {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    background-image: url(../img/santos_praia3.jpg);
+    background-position: center;
+    width: 1280px;
+    height: 718px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 8px solid rgb(234, 234, 234);
+}
+.sobre_cidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 36px;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+.quadrado{
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 75%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-family: 'Nunito', sans-serif;
+    
+}
+/* parte de curiosidades  */
+.curiosidades {
+    background-color: rgba(255, 255, 255, 0.787);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 25px;
+}
+.p-curiosidade{
+    font-size: 13pt;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.conteiner-fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 36px;
+    margin-bottom: 120px;
+    font-weight: 600;
+}
+
+.foto1{
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 335px;
+    height: 900px;
+    background-repeat: no-repeat;
+    border-radius: 31px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.imagem-porto{
+    background-image: url(../img/porto-santos.png);
+    width: 100%;
+    height: 550px;
+}
+
+.foto2{
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 335px;
+    height: 900px;
+    background-repeat: no-repeat;
+    border-radius: 31px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.imagem-aquario{
+    background-image: url(../img/aquario_santos3.jpg);
+    width: 100%;
+    height: 550px;
+}
+.foto3{
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 335px;
+    height: 900px;
+    background-repeat: no-repeat;
+    border-radius: 31px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.imagem-qualidade{
+    background-image: url(../img/ciclovia.jpg);
+    width: 100%;
+    height: 550px;
+}
+
+.frases {
+margin: 0 10px 0 10px;
+}
+
+/* parte do video youtube  */
+.case-video{
+    background-color: rgba(255, 255, 255, 0.787);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.youtube{
+    font-size: 14pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* rodape  */
+.rodape{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.787);
+    height: 45px;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.rodape img{  
+    width: 35px;
+}
