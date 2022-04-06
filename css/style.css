@@ -22,6 +22,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.886);
+    z-index: 999;
 }
 .container-header{
     width: 100%;
@@ -41,13 +42,19 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight:600;
     font-style: oblique;
-
 }
+
+.menu a:hover{
+    transform: scale(1.2);
+    color: rgb(22, 25, 209);
+}
+
 .santos{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
+
 .home {
     font-size: 13pt;
     border-radius: 36px;
@@ -103,7 +110,7 @@ header {
     justify-content: center;
 }
 .foto_cidade {
-    margin-top: 200px;
+    margin-top: 180px;
     margin-bottom: 40px;
     background-image: url(../img/santos_praia3.jpg);
     background-position: center;
@@ -113,6 +120,17 @@ header {
     border-radius: 20px;
     border: 8px solid rgb(234, 234, 234);
 }
+.pai :hover{
+    transform: scale(1.01);
+}
+
+/* .foto_cidade{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/santos_praia3.jpg);
+    background-size: cover;
+} */
+
 .sobre_cidade {
     display: flex;
     justify-content: center;
@@ -146,6 +164,15 @@ header {
     font-size: 25pt;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 25px;
+}
+.conteiner-fotos .foto1:hover{
+    transform: scale(1.03);
+}
+.conteiner-fotos .foto2:hover{
+    transform: scale(1.03);
+}
+.conteiner-fotos .foto3:hover{
+    transform: scale(1.03);
 }
 .p-curiosidade{
     font-size: 13pt;
@@ -258,4 +285,8 @@ margin: 0 10px 0 10px;
 
 .rodape img{  
     width: 35px;
+}
+
+@media (min-width: 425px){
+
 }
